@@ -22,42 +22,5 @@
     <img src="sai.png">
 </center>
 
-    <script>
-
-        canvas = document.getElementById("canvas");
-        ctx = canvas.getContext("2d");
-
-
-        cor = "black";
-        larguraLinha = 1;
-        //é aqui que cria a variável eventoMouse
-      
-        //é aqui que cria a variável ultimoX, ultimoY
-    
-        //é aqui que define o que ocorre no clique no canvas   
-
-
-        //é aqui que define o que ocorre quando o mouse mexe
-
-
-        //é aqui que define o que ocorre quando o mouse sobe
-
-
-        //é aqui que define o que ocorre quando o mouse sai
-
-
-        function desenharCirculo(){
-            cor = document.getElementById("cor").value;
-            ctx.beginPath();
-            ctx.strokeStyle = cor;
-            ctx.lineWidth = 2;
-            ctx.arc(325,300,40,0,2*Math.PI);
-            ctx.stroke();
-        }
-        function limpar(){
-            ctx.clearRect(0,0,canvas.width, canvas.height)
-        }
-
-    </script>
 </body>
 </html>
